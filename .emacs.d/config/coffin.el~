@@ -1,0 +1,10 @@
+(defun save-all-unsaved()
+  "Saves everything. no ask."
+  (interactive)
+  (save-some-buffers t ))
+
+(add-hook 'focus-out-hoook 'save-all-unsaved)
+
+(setq auto-save-dfault nil)
+(setq create-lockfiles nil)
+
