@@ -7,7 +7,6 @@
 (add-to-list 'package-archives '("marmalade". "http://marmalade-repo.org/packages/") t )
 
 ;; setup auto package install
-
 (unless package-archive-contents
   (package-refresh-contents))
 (package-install-selected-packages)

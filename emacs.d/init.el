@@ -40,7 +40,7 @@
    (quote
     (powershell face-explorer gnu-elpa-keyring-update ##)))
  '(scroll-bar-mode nil)
- '(tool-bar-mode nul)
+ '(tool-bar-mode nil)
  '(tooltip-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -48,6 +48,6 @@
   ;;Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right. 
  '(default ((t (:family "Source Code Pro" :foundry "outline" :slant normal :height 98 :width normal)))))
-;; (set-frame-font "Monaco:size=12")
+ (set-frame-font "Monaco:size=12")
  (setq default-frame-alist nil)
  

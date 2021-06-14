@@ -15,7 +15,10 @@ If the new path's directories does not exist, create them."
 
 (setq make-backup-file-name-function 'coffin-backup-file-name)
 
-
 ;; stop creating those #auto-save# files
 (setq auto-save-default nil)
+
+;; enable auto-save on the visited file
+(setq auto-save-visited-mode t)
+
 
