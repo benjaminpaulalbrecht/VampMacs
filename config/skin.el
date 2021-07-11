@@ -1,4 +1,4 @@
-(load-file "~/.emacs.d/skin/dracula-theme.el")
+(load-file "~/VampMacs/config/skin/dracula-theme.el")
 (load-theme 'dracula t)
 
 ;; ux 
