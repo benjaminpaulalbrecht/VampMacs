@@ -1,0 +1,15 @@
+* TODO Destroy 103p
+
+* TODO configure onbase servers (iislog)
+
+* TODO build terraform to domain join ebapps
+
+
+
+
+
+
+
+
+
+
